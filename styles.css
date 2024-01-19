@@ -1,0 +1,67 @@
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    box-sizing: border;
+    padding:0;
+    margin:0;
+    font-family:'Josefin Sans'
+
+}
+body{
+    max-width:960px;
+    width:100%;
+    min-width:380x;
+    background-image:url("./images/bg-desktop-light.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#444;
+    letter-spacing: 1px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wrapper{
+    max-width:100%;
+    min-width:320px;
+    width:100%;
+    /* padding :10%
+    ;
+    margin : 10% 20%; */
+    margin-left:10px;
+    
+    border:2px solid red;
+
+}
+form,.todo-display{
+    width:100%;
+    background-color:white;
+    padding :15px ;
+
+
+
+}
+.todo-display{
+    margin-top:10px;
+}
+.todo-value{
+    width:70%;
+    padding:10px;
+    border:none;
+    border-bottom:2px solid  hsl(235, 19%, 35%)
+
+
+}
+.todo-item-wrapper{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+
+.completed{
+    text-decoration:line-through;
+    color:#999;
+}
